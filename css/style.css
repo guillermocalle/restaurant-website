@@ -447,3 +447,64 @@ iframe {
   margin: 7px auto;
   grid-column: 1/3;
 }
+
+/* section 8 */
+
+.container-8 {
+  background-color: #f6eedf;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f64b3c;
+}
+
+.container-8__div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-8__title {
+  font-size: 64px;
+}
+
+.container-8__paragraph {
+  width: 65%;
+  font-size: 20px;
+  text-align: center;
+  margin: 35px auto;
+}
+
+.container-8__form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-email {
+  width: 40%;
+  height: 45px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+.input-submit {
+  width: 25%;
+  height: 45px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  outline: none;
+  background-color: #f64b3c;
+  color: #fff;
+  font-size: 17px;
+}
